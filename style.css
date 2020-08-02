@@ -1,0 +1,164 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.bctext{
+    display: flex;
+    justify-content: center;
+    margin-top: -25%;
+    text-align: center;
+    font-size: 300%;
+    color: #842020;
+   
+}
+
+.about{
+    margin-top: 17%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Competitions{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #842020;
+
+}
+.comph4{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.SRM{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #842020;
+}
+.carouselSRM{
+    margin-top: 3%;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+}
+.SRMcomp1 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.carouselTC{
+    margin-top: 3%;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.BUGvideo{
+    width: 40%;
+    margin-left: 31%;
+    margin-top: 2rem;
+}
+.OS{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #842020;
+}
+.OSheroku{
+    width: 15%;
+    
+}
+.OSherokuP{
+    padding-left: 13rem;
+}
+.OSreact{
+    width: 15%; 
+    margin-top: 0.5rem;
+    
+}
+.OSreactP{
+    padding-left: 8rem;
+}
+@media (min-width: 320px) and (max-width: 765px){
+
+    .bctext{
+        font-size: 91%;
+    }
+    .abouth4{
+        font-size: 112%
+    }
+    .comph1{
+        font-size: 150%;
+    }
+    .comph4{
+        font-size: 123%;
+    margin-top: 1rem;
+        
+    }
+    .BUGvideo {
+        width: 50%;
+        margin-left: 26%;
+        margin-top: 2rem;
+    }
+    .carouselSRM {
+       margin-top: rem;
+        width: 51%;
+        margin-left: 25%;
+    }
+    .SRMcomp1 {
+        font-size: 79%;
+    }
+    .carouselTC{
+        margin-top: 2rem;
+    width: 61%;
+    margin-left: 20%;
+    }
+    .OS {
+        margin-top: 4rem;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .bctext{
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .abouth4{
+        margin-top: 3rem;
+        font-size: 126%;
+        font-weight: 600;
+    }
+    .comph4{
+        font-size: 144%;
+    margin-top: 1rem;
+        
+    }
+    .carouselSRM {
+        width: 29%;
+    margin-left: 35%;
+     }
+     .carouselTC {
+        
+        width: 41%;
+        margin-left: 29%;
+    }
+    .BUGvideo {
+        width: 48%;
+        margin-left: 25%;
+        margin-top: 2rem;
+    }
+
+}
