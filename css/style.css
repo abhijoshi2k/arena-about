@@ -6,14 +6,70 @@ body{
     width: 100%;
 }
 
-.bctext{
-    display: flex;
-    justify-content: center;
-    margin-top: -25%;
-    text-align: center;
-    font-size: 300%;
+.intro
+{
+    background: url(../images/bcimg.jpg);
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+@media(max-width: 420px)
+{
+    .intro
+    {
+        -webkit-background-size: auto 100%;
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+.intro-text
+{
+    line-height: 1.5;
     color: #842020;
-   
+    font-size: 1.9em;
+}
+
+@media(max-width: 980px)
+{
+    .intro-text
+    {
+        font-size: 1.7em;
+    }
+}
+
+@media(max-width: 900px)
+{
+    .intro-text
+    {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 767px)
+{
+    .intro-text
+    {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width: 570px)
+{
+    .intro-text
+    {
+        font-size: 1.1em;
+    }
+}
+
+@media(max-width: 450px)
+{
+    .intro-text
+    {
+        font-size: 1em;
+    }
 }
 
 .about{
