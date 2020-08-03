@@ -144,13 +144,15 @@ body{
     margin-left: 31%;
 }
 
+.comph1
+{
+    font-family: 'Rubik', sans-serif;
+}
+
 @media (min-width: 320px) and (max-width: 765px){
 
     .bctext{
         font-size: 91%;
-    }
-    .comph1{
-        font-size: 150%;
     }
     .comph4{
         font-size: 123%;
