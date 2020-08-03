@@ -103,6 +103,14 @@ body{
     }
 }
 
+@media(max-width: 400px)
+{
+    .abouth4
+    {
+        font-size: 0.8em;
+    }
+}
+
 .Competitions{
     display: flex;
     justify-content: center;
@@ -149,7 +157,7 @@ body{
     }
     .BUGvideo {
         width: 50%;
-        margin-left: 26%;
+        margin-left: 25%;
     }
     .carouselSRM {
         width: 50%;
@@ -188,4 +196,24 @@ body{
         margin-left: 25%;
     }
 
+}
+
+.project-image
+{
+    height: 60px;
+}
+
+.project-title
+{
+    font-size: 20px;
+}
+
+.project-box
+{
+    font-size: 14px;
+}
+
+.project-des
+{
+    font-size: 16px;
 }
