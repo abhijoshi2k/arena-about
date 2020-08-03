@@ -8,7 +8,7 @@ body{
 
 .intro
 {
-    background: url(../images/bcimg.jpg);
+    background: linear-gradient(rgba(50, 96, 168, 0.3),rgba(255, 255, 255, 0.1)), url(../images/bcimg.jpg);
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -30,6 +30,9 @@ body{
     line-height: 1.5;
     color: #842020;
     font-size: 1.9em;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 @media(max-width: 991px)
@@ -69,6 +72,13 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.abouth4
+{
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
 }
 
 @media(max-width: 991px)
@@ -149,6 +159,30 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+@media(max-width: 767px)
+{
+    .comph1
+    {
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .comph1
+    {
+        font-size: 1.9rem;
+    }
+}
+
+@media(max-width: 400px)
+{
+    .comph1
+    {
+        font-size: 1.7rem;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 765px){
 
     .bctext{
@@ -218,4 +252,33 @@ body{
 .project-des
 {
     font-size: 16px;
+}
+
+.generalh4
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 1.4;
+}
+
+@media(max-width: 576px)
+{
+    .generalh4
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 450px)
+{
+    .generalh4
+    {
+        font-size: 0.9rem;
+    }
 }
