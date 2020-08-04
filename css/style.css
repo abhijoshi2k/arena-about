@@ -68,7 +68,7 @@ body{
 
 .intro
 {
-    background: linear-gradient(rgba(50, 96, 168, 0.3),rgba(255, 255, 255, 0.1)), url(../images/bc.jpg);
+    background: linear-gradient(rgba(50, 96, 168, 0.3),rgba(255, 255, 255, 0.1)), url(../images/bcimg.jpg);
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     background-repeat: no-repeat;
