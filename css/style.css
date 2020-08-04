@@ -384,7 +384,7 @@ body{
     }
   
     .logo:hover,
-    .nav-links:hover {
+    .nav-links:hover { 
       color: #842020;
       text-decoration: none;
     }
