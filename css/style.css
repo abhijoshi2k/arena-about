@@ -425,9 +425,44 @@ body{
       text-decoration: none;
     }
     
-  }
-  @media screen and (min-width: 855px) {
-    .mr-n5 {
-        margin-right: 0rem !important;
-      } 
-  }
+}
+@media screen and (min-width: 855px) {
+.mr-n5 {
+    margin-right: 0rem !important;
+  } 
+}
+
+.bq-text
+{
+font-size: 18px;
+}
+
+.bq-footer-text
+{
+font-size: 15px;
+}
+
+.hover-warning, .hover-primary, .hover-danger, .hover-success
+{
+transition: 0.4s
+}
+
+.hover-warning:hover
+{
+    background: rgba(255, 193, 7, 0.2);
+}
+
+.hover-primary:hover
+{
+    background: rgba(0, 123, 255, 0.2);
+}
+
+.hover-danger:hover
+{
+    background: rgba(220, 53, 69, 0.2);
+}
+
+.hover-success:hover
+{
+    background: rgba(40, 167, 69, 0.2);
+}
