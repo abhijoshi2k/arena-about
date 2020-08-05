@@ -204,7 +204,6 @@ body{
 .carouselSRM {
     text-align: center;
     width: 37%;
-    margin-left: 21%;
 }
 .SRMcomp1 {
     display: flex;
@@ -214,11 +213,9 @@ body{
 .carouselTC{
     text-align: center;
     width: 58%;
-    margin-left: 21%;
 }
 .BUGvideo{
     width: 62%;
-    margin-left: 9%;
 }
 
 .comph1
@@ -260,18 +257,15 @@ body{
     }
     .BUGvideo {
         width: 50%;
-        margin-left: 25%;
     }
     .carouselSRM {
         width: 50%;
-        margin-left: 25%;
     }
     .SRMcomp1 {
         font-size: 79%;
     }
     .carouselTC{
     width: 61%;
-    margin-left: 20%;
     }
 }
 
@@ -287,15 +281,12 @@ body{
     }
     .carouselSRM {
         width: 53%;
-        margin-left: 19%;
      }
      .carouselTC {
         width: 87%;
-    margin-left: 4%;
     }
     .BUGvideo {
         width: 84%;
-        margin-left: 0%;
     }
 
 }
