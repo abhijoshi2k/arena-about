@@ -203,7 +203,8 @@ body{
 }
 .carouselSRM {
     text-align: center;
-    width: 37%;
+    /* width: 37%; */
+    width: 53%;
 }
 .SRMcomp1 {
     display: flex;
@@ -212,10 +213,12 @@ body{
 }
 .carouselTC{
     text-align: center;
-    width: 58%;
+    /* width: 58%; */
+    width: 86%;
 }
 .BUGvideo{
-    width: 62%;
+    /* width: 62%; */
+    width: 76%;
 }
 
 .comph1
@@ -256,7 +259,7 @@ body{
         font-size: 123%;
     }
     .BUGvideo {
-        width: 50%;
+        width: 65%;
     }
     .carouselSRM {
         width: 50%;
