@@ -343,7 +343,6 @@ body{
     font-size: 1.2rem;
     font-family: 'IBM Plex Serif', serif;
     line-height: 1.4;
-    margin-left: -7rem;
 }
 .generalh42
 {
@@ -356,7 +355,6 @@ body{
     font-size: 1.2rem;
     font-family: 'IBM Plex Serif', serif;
     line-height: 1.4;
-    margin-left: 1rem;
 }
 .generalh43
 {
@@ -369,7 +367,6 @@ body{
     font-size: 1.2rem;
     font-family: 'IBM Plex Serif', serif;
     line-height: 1.4;
-    margin-left: -4rem;
 }
 
 @media(max-width: 576px)
