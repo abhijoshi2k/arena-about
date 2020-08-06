@@ -379,6 +379,31 @@ body{
     color: #842020;
     text-decoration: none;
 }
+.team-image{
+    width: 50%;
+}
+.teamhover{
+    text-decoration: none;
+    color: black;
+}
+
+.teamhover:hover{
+    color: #842020;
+    text-decoration: none;
+}
+.I,.L,.T{
+    color: black;
+}
+.I:hover{
+    color:#E1306C;
+}
+.L:hover{
+    color: #2867B2;
+}
+.T:hover{
+    color: skyblue;
+}
+
 
 @media(max-width: 576px)
 {
