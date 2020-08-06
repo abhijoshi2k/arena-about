@@ -1,3 +1,5 @@
+
+
 body{
     overflow-x: hidden;
 }
@@ -226,6 +228,7 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+
 @media(max-width: 767px)
 {
     .comph1
@@ -270,6 +273,9 @@ body{
     .carouselTC{
     width: 61%;
     }
+   .teamtext{
+       font-size: 130%;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
