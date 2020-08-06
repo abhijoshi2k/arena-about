@@ -372,6 +372,7 @@ body{
 .teamhover{
     text-decoration: none;
     color: black;
+    transition: 0.4s;
 }
 
 .teamhover:hover{
