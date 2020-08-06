@@ -369,6 +369,16 @@ body{
     line-height: 1.4;
 }
 
+.teamhover{
+    text-decoration: none;
+    color: black;
+}
+
+.teamhover:hover{
+    color: #842020;
+    text-decoration: none;
+}
+
 @media(max-width: 576px)
 {
     .generalh4
