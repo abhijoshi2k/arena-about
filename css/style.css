@@ -508,3 +508,87 @@ transition: 0.4s
 {
     background: rgba(40, 167, 69, 0.2);
 }
+
+.dropdown-icon
+{
+    text-shadow: 0 0 2px #007bff;
+    transition: 0.4s;
+}
+
+.para-exp
+{
+    transition: 0.4s;
+    max-height: 1000px;
+}
+
+@media(max-width: 991px)
+{
+    .para-exp
+    {
+        max-height: 150px;
+    }
+
+    .exp:checked ~ .comp-info-section .para-exp
+    {
+        max-height: 1000px;
+    }
+
+    .exp:checked ~ .comp-info-section div .dropdown-icon
+    {
+        transform: rotate(180deg);
+    }
+}
+
+@media(max-width: 535px)
+{
+    .para-exp
+    {
+        max-height: 180px;
+    }
+
+    .exp:checked ~ .comp-info-section .para-exp
+    {
+        max-height: 1000px;
+    }
+
+    .exp:checked ~ .comp-info-section div .dropdown-icon
+    {
+        transform: rotate(180deg);
+    }
+}
+
+@media(max-width: 417px)
+{
+    .para-exp
+    {
+        max-height: 200px;
+    }
+
+    .exp:checked ~ .comp-info-section .para-exp
+    {
+        max-height: 1000px;
+    }
+
+    .exp:checked ~ .comp-info-section div .dropdown-icon
+    {
+        transform: rotate(180deg);
+    }
+}
+
+@media(max-width: 338px)
+{
+    .para-exp
+    {
+        max-height: 210px;
+    }
+
+    .exp:checked ~ .comp-info-section .para-exp
+    {
+        max-height: 1000px;
+    }
+
+    .exp:checked ~ .comp-info-section div .dropdown-icon
+    {
+        transform: rotate(180deg);
+    }
+}
