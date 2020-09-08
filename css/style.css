@@ -318,6 +318,7 @@ body{
     font-size: 16px;
 }
 
+
 .generalh4
 {
     display: -webkit-flex;
@@ -400,6 +401,15 @@ body{
 }
 .T:hover{
     color: skyblue;
+}
+
+.backgroundimg-OurTeam
+{
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), #edcfa9;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: repeat;
+
 }
 
 
